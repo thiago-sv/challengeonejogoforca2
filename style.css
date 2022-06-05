@@ -1,0 +1,207 @@
+header {
+    width: 1440px;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1024px;
+    justify-content: center;
+}
+
+#canvas {
+    display: none;
+    flex-direction: column;
+}
+
+.botoes-tela-iniciar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt-jogar {
+    display: flex;
+    width: 317px;
+    height: 105px;
+    font-size: 24px;
+    color: white;
+    background: #0A3871;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.bt-jogar:active {
+    transform: translateY(4px);
+}
+
+.bt-addpalavra {
+    display: flex;
+    width: 317px;
+    height: 105px;
+    font-size: 24px;
+    color: #0A3871;
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    border-bottom: 3px solid;
+    justify-content: center;
+}
+
+.bt-addpalavra:active {
+    transform: translateY(4px);
+}
+
+.text-addpalavra {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto {
+    width: 815px;
+    height: 300px;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    mix-blend-mode: darken;
+    border: transparent;
+    color: #0A3871;
+}
+
+.botoes-tela-addpalavra {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bt-salvar {
+    display: flex;
+    width: 332px;
+    height: 67px;
+    font-size: 24px;
+    color: white;
+    background: #0A3871;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.bt-salvar:active {
+    transform: translateY(4px);
+}
+
+.bt-cancelar {
+    display: flex;
+    width: 332px;
+    height: 67px;
+    font-size: 24px;
+    color: #0A3871;
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    border-bottom: 3px solid;
+    justify-content: center;
+    align-content: center;
+}
+
+.bt-cancelar:active {
+    transform: translateY(4px);
+}
+
+#botoes-tela-jogo {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.bt-novojogo {
+    display: flex;
+    width: 332px;
+    height: 67px;
+    font-size: 24px;
+    color: white;
+    background: #0A3871;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.bt-novojogo:active {
+    transform: translateY(4px);
+}
+
+.bt-desistir {
+    display: flex;
+    width: 332px;
+    height: 67px;
+    font-size: 24px;
+    color: #0A3871;
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    border-bottom: 3px solid;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.bt-desistir:active {
+    transform: translateY(4px);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+    font-size: 32px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.copyright {
+    display: flex;
+    color: #0A3871;
+    margin-left: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}

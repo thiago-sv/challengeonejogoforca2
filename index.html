@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Forca</title>
+</head>
+
+<header>
+    <img src="./Imagens/Vector.png" class="logo">
+</header>
+
+<body>
+    <div class="container">
+
+        <div class="forca" id="canvas">
+            <canvas id="forca-canvas" height="1024px" width="1440px"></canvas>
+        </div>
+
+        <div class="botoes-tela-iniciar" id="botoes-tela-iniciar">
+            <input type="button" value="Começar o jogo" class="bt-jogar" id="bt-jogar">
+            <input type="button" value="Adicionar palavra" class="bt-addpalavra" id="bt-addpalavra">
+        </div>
+
+        <div class="text-addpalavra" id="text-addpalavra">
+            <label for="text"></label>
+            <textarea type="text" id="text" class="texto" placeholder="Adcione uma palavra ao jogo" cols="30"
+                rows="10"></textarea>
+        </div>
+
+        <div class="botoes-tela-addpalavra" id="botoes-tela-addpalavra">
+            <input type="button" value="Salvar e começar" class="bt-salvar" id="bt-salvar">
+            <input type="button" value="Cancelar" class="bt-cancelar" id="bt-cancela">
+        </div>
+
+        <div class="botoes-tela-jogo" id="botoes-tela-jogo">
+            <input type="button" value="Novo jogo" class="bt-novojogo" id="bt-jogonovo">
+            <input type="button" value="Desistir" class="bt-desistir" id="bt-desistir">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<footer class="footer">
+    <img class="logo-footer" src="./Imagens/Vector.png" alt="Logo da Alura">
+    <p class="copyright"> © Copyright - <a class="link" href="https://github.com/thiago-sv"> Thiago-sv </a> 2022 </p>
+</footer>
+
+</html>
